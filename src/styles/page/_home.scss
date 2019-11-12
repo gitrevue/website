@@ -1,0 +1,67 @@
+.section {
+  margin-top: 8rem;
+
+  &:first-of-type {
+    margin-top: 2rem;
+
+    @include media-breakpoint-up(md) {
+      margin-top: 4rem;
+    }
+
+    @include media-breakpoint-up(lg) {
+      margin-top: 6rem;
+    }
+
+    @include media-breakpoint-up(xl) {
+      margin-top: 8rem;
+    }
+  }
+
+  &.skewed {
+    position: relative;
+    padding: 4rem 0;
+
+    &.skew-left {
+      &::before {
+        @include skewY(2deg);
+        content: "";
+        transform-origin: bottom right;
+      }
+
+      &::after {
+        @include skewY(2deg);
+        content: "";
+        transform-origin: top left;
+        z-index: -1;
+      }
+    }
+
+    &.skew-right {
+      &::before {
+        @include skewY(-2deg);
+        content: "";
+        transform-origin: bottom left;
+      }
+
+      &::after {
+        @include skewY(-2deg);
+        content: "";
+        transform-origin: top right;
+        z-index: -1;
+      }
+    }
+  }
+
+  &.overlap {
+    padding-bottom: 15rem;
+    margin-bottom: -13rem;
+  }
+}
+
+.git-icon {
+  flex-basis: 50%;
+
+  &:first-of-type {
+    flex-basis: 100%;
+  }
+}

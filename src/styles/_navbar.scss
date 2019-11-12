@@ -1,0 +1,10 @@
+.navbar {
+  padding: 1.25rem 20px;
+
+  &-brand {
+    &-img {
+      max-width: 30px;
+      fill: $primary;
+    }
+  }
+}

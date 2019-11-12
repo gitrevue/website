@@ -4,4 +4,6 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
-// You can delete this file if you're not using it
+import './src/styles/style.scss'
+import './node_modules/jquery/dist/jquery.slim'
+import './node_modules/bootstrap/js/dist/collapse'

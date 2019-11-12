@@ -1,0 +1,50 @@
+.footer {
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  margin-top: 5rem;
+  background-color: $dark;
+
+  @include media-breakpoint-up(sm) {
+    margin-top: 6rem;
+    padding-top: 3rem;
+  }
+
+  @include media-breakpoint-up(md) {
+    margin-top: 7rem;
+    padding-top: 4rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    margin-top: 8rem;
+    padding-top: 5rem;
+  }
+
+  @include media-breakpoint-up(xl) {
+    margin-top: 9rem;
+  }
+
+  &-shape {
+    @include skewY(5deg);
+    transform-origin: bottom right;
+    background-color: $dark;
+
+    @include media-breakpoint-up(xl) {
+      @include skewY(4deg);
+    }
+  }
+
+  &-brand {
+    color: $light;
+
+    &:hover {
+      color: $light;
+      text-decoration: none;
+    }
+
+    &-img {
+      max-width: 30px;
+      fill: $primary;
+    }
+  }
+}
