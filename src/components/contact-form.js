@@ -35,7 +35,7 @@ class ContactForm extends React.Component {
           <textarea name="message" id="message" className="form-control" placeholder="Tell us what we can help you with" rows={8} />
         </div>
 
-        {status === null && <button className="btn btn-success btn-lg btn-block">Send Message <FontAwesomeIcon icon={faPaperPlane}/></button>}
+        {status === null && <button className="btn btn-primary btn-lg btn-block">Send Message <FontAwesomeIcon icon={faPaperPlane}/></button>}
         {status === "SUCCESS" && <div className="alert alert-success">Thanks! We'll get back to you shortly</div>}
         {status === "ERROR" && <div className="alert alert-danger">Ooops! There was an error sending your message. Please try again.</div>}
       </form>
