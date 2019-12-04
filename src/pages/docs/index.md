@@ -16,9 +16,6 @@ title: "Documentation"
         <h6 class="mt-5">Already know the basics?</h6>
         <ul class="list-unstyled">
             <li>
-                <a href="/docs/configuration-reference">Configuration reference</a>
-            </li>
-            <li>
                 <a href="/docs/rules">Review Rules</a>
             </li>
         </ul>

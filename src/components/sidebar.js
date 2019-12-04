@@ -7,6 +7,10 @@ const Sidebar = () => (
 
     <ul className="list-unstyled">
       <li>
+        <Link to="/docs/getting-started">Getting Started</Link>
+      </li>
+
+      <li>
         <Link to="/docs/configuration">Config Reference</Link>
       </li>
     </ul>
@@ -23,7 +27,11 @@ const Sidebar = () => (
       </li>
 
       <li>
-        <Link to="/docs/rules#require-modified">Require Modified</Link>
+        <Link to="/docs/rules#require-file-modified">Require Modified</Link>
+      </li>
+
+      <li>
+        <Link to="/docs/rules#paired-files">Paired Files</Link>
       </li>
     </ul>
   </aside>

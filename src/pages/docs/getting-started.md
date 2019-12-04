@@ -3,7 +3,7 @@ path: "/docs/getting-started"
 title: "Getting Started"
 ---
 
-A short guide on setting up GitRevue with your GitHub repositories. If you already have GitRevue set up you may find the [Configuration Reference](/docs/configuration-reference) more useful.
+A short guide on setting up GitRevue with your GitHub repositories. If you already have GitRevue set up you may find the [Configuration Reference](/docs/rules) more useful.
 
 ### Prerequisites
 
@@ -20,7 +20,7 @@ Before getting started with GitRevue, make sure you have the following:
 4. Add a `.gitrevue.yml` file to your repository. The sample below tells GitRevue to fail the review if the PR exceeds 1,000 additions/deletions.
 
 ```yaml
-big_pr_threshold: 1000
+maximum_modifications: 1000
 ```
 
 5. Commit the `.gitrevue.yml` configuration, push and open a pull request.
@@ -28,4 +28,4 @@ big_pr_threshold: 1000
 
 ### Further Reading
 
-- [Configuration Reference](/docs/configuration-reference) 
+- [Configuration Reference](/docs/rules)qgsqq
