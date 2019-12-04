@@ -11,7 +11,7 @@ const Sidebar = () => (
       </li>
 
       <li>
-        <Link to="/docs/configuration">Config Reference</Link>
+        <Link to="/docs/rules">Config Reference</Link>
       </li>
     </ul>
 
