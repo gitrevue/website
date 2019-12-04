@@ -16,6 +16,15 @@ module.exports = {
       options: {
         plugins: [
           `gatsby-remark-copy-linked-files`,
+          `gatsby-remark-autolink-headers`,
+          {
+            resolve: `gatsby-remark-classes`,
+            options: {
+              classMap: {
+                table: 'table table-bordered',
+              },
+            },
+          },
           {
             resolve: `gatsby-remark-images`,
             options: {
