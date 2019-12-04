@@ -3,6 +3,7 @@ module.exports = {
     title: `GitRevue`,
     description: `Simplify your code reviews`,
     author: `@gitrevue`,
+    siteUrl: 'https://gitrevue.io',
   },
   plugins: [
     `gatsby-plugin-offline`,
@@ -11,6 +12,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
