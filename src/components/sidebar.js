@@ -31,6 +31,10 @@ const Sidebar = () => (
       </li>
 
       <li>
+        <Link to="/docs/rules#require-file-not-modified">Require Not Modified</Link>
+      </li>
+
+      <li>
         <Link to="/docs/rules#paired-files">Paired Files</Link>
       </li>
     </ul>
