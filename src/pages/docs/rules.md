@@ -39,7 +39,7 @@ Require file not modified ensures specific files are not changed. This is good f
 
 | Key | Type | Description |
 |-----|------|-------------|
-| `require_file_not_modified | Array | An array of file paths or globs which must not match a file modified in the pull request. *Note*: Paths are relative to your repository root |
+| `require_file_not_modified` | Array | An array of file paths or globs which must not match a file modified in the pull request. *Note*: Paths are relative to your repository root |
 
 ```yaml
 require_file_not_modified:
