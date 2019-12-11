@@ -13,7 +13,10 @@ import commentAvalanche from '../images/comment-avalanche.svg'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO
+      title="Home"
+      description="Simplify your code reviews, automate common tasks and implement standard review flows through your team"
+    />
 
     <section className="section">
       <div className="container">

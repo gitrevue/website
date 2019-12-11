@@ -1,6 +1,7 @@
 ---
 path: "/docs"
 title: "Documentation"
+description: "The documentation site for GitRevue. Simplify your code reviews, automate common tasks and implement standard review flows through your team"
 ---
 
 <div class="d-flex flex-column justify-content-center">

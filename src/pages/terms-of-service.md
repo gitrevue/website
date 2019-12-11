@@ -1,6 +1,7 @@
 ---
 path: "/terms-of-service"
 title: "Terms of Service"
+description: "Read our Terms of Service to understand how GitRevue operates and offer our service"
 ---
 
 Please read these Terms of Service ("Terms", "Terms and Conditions") carefully before using the https://gitrevue.io website (the "Service") operated by iWader Limited ("us", "we", or "our").

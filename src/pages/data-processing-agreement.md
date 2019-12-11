@@ -1,6 +1,7 @@
 ---
 path: "/data-processing-agreement"
 title: "Data Processing Agreement"
+description: "Read our data processing agreement to understand how we handle your data and information"
 ---
 
 This Data Processing Agreement (“Agreement“) forms part of the Contract for Services under the GitRevue Terms and Conditions (the "Principal Agreement").

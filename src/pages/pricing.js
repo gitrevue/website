@@ -6,7 +6,10 @@ import Pricing from '../components/pricing'
 
 const PricingPage = () => (
   <Layout>
-    <SEO title="Pricing" />
+    <SEO
+      title="Pricing"
+      description="GitRevue pricing plans. Get started today for free, upgrade as you need."
+    />
 
     <div className="container mt-5">
       <h1 className="text-center">Pricing</h1>

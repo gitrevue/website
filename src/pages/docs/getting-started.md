@@ -1,6 +1,7 @@
 ---
 path: "/docs/getting-started"
 title: "Getting Started"
+description: "A short guide on setting up GitRevue with your GitHub repositories"
 ---
 
 A short guide on setting up GitRevue with your GitHub repositories. If you already have GitRevue set up you may find the [Configuration Reference](/docs/rules) more useful.

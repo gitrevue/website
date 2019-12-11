@@ -8,7 +8,10 @@ import contactImage from '../images/contact-us.svg'
 
 const ContactPage = () => (
   <Layout>
-    <SEO title="Contact Us" />
+    <SEO
+      title="Contact Us"
+      description="We always want to hear from you. Let us know how we can help and we'll do our best"
+    />
 
     <div className="container">
       <div className="row">

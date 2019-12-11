@@ -1,6 +1,7 @@
 ---
 path: "/privacy-policy"
 title: "Privacy Policy"
+description: "Read our privacy policy to understand how we collect and use your personal information"
 ---
 
 GitRevue is a trading name of iWader Limited. This privacy policy will explain how our organization uses the personal data we collect from you when you use our website.

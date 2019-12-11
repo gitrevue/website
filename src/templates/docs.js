@@ -12,7 +12,10 @@ export default function Template({
 
   return (
     <Layout MainComponent="div">
-      <SEO title={frontmatter.title} />
+      <SEO
+        title={frontmatter.title}
+        description={frontmatter.description}
+      />
 
       <div className="documentation container mb-5">
         <div className="row">
@@ -38,6 +41,7 @@ export const pageQuery = graphql`
       frontmatter {
         path
         title
+        description
       }
     }
   }
