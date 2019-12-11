@@ -90,5 +90,12 @@ module.exports = {
         anonymize: true,
       },
     },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://gitrevue.io`,
+        stripQueryString: true,
+      },
+    },
   ],
 }
