@@ -76,7 +76,7 @@ const IndexPage = () => (
           </div>
 
           <div className="col-md-6 d-flex flex-column justify-content-center mb-5 mb-md-0">
-            <h1 className="text-center text-md-left mt-5 mt-md-0">Drive positive reviews</h1>
+            <h2 className="text-center text-md-left mt-5 mt-md-0">Drive positive reviews</h2>
             <p>Comment avalanches are often daunting and come off as nitpicking. GitRevue allows your developers to identify issues early, avoiding an ensuing avalanche</p>
           </div>
         </div>
