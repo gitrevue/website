@@ -16,6 +16,7 @@ const IndexPage = () => (
     <SEO
       title="Home"
       description="Simplify your code reviews, automate common tasks and implement standard review flows throughout your team"
+      path="/"
     />
 
     <section className="section">

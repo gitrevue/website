@@ -8,6 +8,7 @@ const NotFoundPage = () => (
     <SEO
       title="Page Not found"
       description="The page you are looking for cannot be found"
+      path="/"
     />
 
     <div className="text-center mt-3 mb-5">

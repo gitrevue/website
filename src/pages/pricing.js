@@ -9,6 +9,7 @@ const PricingPage = () => (
     <SEO
       title="Pricing"
       description="GitRevue pricing plans. Get started today for free, upgrade as you need."
+      path="/pricing"
     />
 
     <div className="container mt-5">

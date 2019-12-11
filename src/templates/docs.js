@@ -15,6 +15,7 @@ export default function Template({
       <SEO
         title={frontmatter.title}
         description={frontmatter.description}
+        path={frontmatter.path}
       />
 
       <div className="documentation container mb-5">

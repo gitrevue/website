@@ -11,6 +11,7 @@ const ContactPage = () => (
     <SEO
       title="Contact Us"
       description="We always want to hear from you. Let us know how we can help and we'll do our best"
+      path="/contact-us"
     />
 
     <div className="container">
