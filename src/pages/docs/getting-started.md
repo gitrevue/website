@@ -28,4 +28,4 @@ maximum_modifications: 1000
 
 ### Further Reading
 
-- [Configuration Reference](/docs/rules)qgsqq
+- [Configuration Reference](/docs/rules)
