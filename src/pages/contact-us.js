@@ -12,6 +12,12 @@ const ContactPage = () => (
       title="Contact Us"
       description="We always want to hear from you. Let us know how we can help and we'll do our best"
       path="/contact-us"
+      structuredData={{
+        "@context": `https://schema.org`,
+        "@type": `WebPage`,
+        "headline": `Contact Us`,
+        "description": `We always want to hear from you. Let us know how we can help and we'll do our best`,
+      }}
     />
 
     <div className="container">

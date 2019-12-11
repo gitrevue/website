@@ -15,6 +15,12 @@ export default function Template({
         title={frontmatter.title}
         description={frontmatter.description}
         path={frontmatter.path}
+        structuredData={{
+          "@context": `https://schema.org`,
+          "@type": `WebPage`,
+          "headline": `${frontmatter.title}`,
+          "description": `${frontmatter.description}`,
+        }}
       />
 
       <div className="container mt-5 mb-5">

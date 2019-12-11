@@ -17,6 +17,18 @@ const IndexPage = () => (
       title="Home"
       description="Simplify your code reviews, automate common tasks and implement standard review flows throughout your team"
       path="/"
+      structuredData={{
+        "@context": `https://schema.org`,
+        "@type": `Organization`,
+        "name": "GitRevue",
+        "description": `Simplify your code reviews, automate common tasks and implement standard review flows throughout your team`,
+        "sameAs": [
+          "https://twitter.com/GitRevue",
+          "https://www.facebook.com/GitRevue",
+          "https://github.com/GitRevue",
+          "https://www.linkedin.com/company/gitrevue"
+        ],
+      }}
     />
 
     <section className="section">
