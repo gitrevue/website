@@ -58,6 +58,10 @@ function SEO({ description, lang, meta, title, path, structuredData }) {
           content: `${url}`,
         },
         {
+          property: `og:image`,
+          content: `${site.siteMetadata.siteUrl}/logo.png`
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
         },
