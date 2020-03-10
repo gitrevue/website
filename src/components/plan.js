@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import cx from "classnames"
 
-const Plan = ({ name, price, features, action, link, frequency, className }) => (
+const Plan = ({ name, price, repositories, teamMembers, action, link, frequency, className }) => (
   <div className={cx(`card flex-grow-1`, className)}>
     <div className="card-body d-flex flex-column">
       <h5 className="card-title text-center">{name}</h5>
@@ -17,9 +17,15 @@ const Plan = ({ name, price, features, action, link, frequency, className }) => 
 
       <hr className="w-100"/>
 
-      <ul className="list-unstyled">
-        {features.map((feature) => <li key={feature}>{feature}</li>)}
-      </ul>
+      <p className="text-center mt-3">
+        <span className="d-block font-size-2">{repositories}</span>
+        <span className="text-muted">{repositories === 1 ? 'Repository' : 'Repositories'}</span>
+      </p>
+
+      <p className="text-center mt-3">
+        <span className="d-block font-size-2">{teamMembers}</span>
+        <span className="text-muted">Team Members</span>
+      </p>
 
       <a href={link} className="btn btn-primary btn-block mt-auto">{action}</a>
     </div>
