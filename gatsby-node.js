@@ -31,7 +31,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const docs = await graphql(`
     {
       allMarkdownRemark(
-        filter: {fileAbsolutePath: {glob: "${path.resolve('src/pages/docs/*.md')}"}}
+        filter: {fileAbsolutePath: {glob: "${path.resolve('src/pages/docs/**/*.md')}"}}
       ) {
         edges {
           node {

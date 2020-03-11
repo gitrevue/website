@@ -30,3 +30,4 @@ maximum_modifications: 1000
 ### Further Reading
 
 - [Configuration Reference](/docs/rules)
+- [Artifact Monitoring](/docs/artifact-monitoring)

@@ -13,6 +13,10 @@ const Sidebar = () => (
       <li>
         <Link to="/docs/rules">Config Reference</Link>
       </li>
+
+      <li>
+        <Link to="/docs/artifact-monitoring">Artifact Monitoring</Link>
+      </li>
     </ul>
 
     <h5>Rules</h5>
@@ -36,6 +40,18 @@ const Sidebar = () => (
 
       <li>
         <Link to="/docs/rules#paired-files">Paired Files</Link>
+      </li>
+    </ul>
+
+    <h5>Artifact Monitoring</h5>
+
+    <ul className="list-unstyled">
+      <li>
+        <Link to="/docs/artifact-monitoring">Basic Setup</Link>
+      </li>
+
+      <li>
+        <Link to="/docs/artifact-monitoring">CircleCI</Link>
       </li>
     </ul>
   </aside>

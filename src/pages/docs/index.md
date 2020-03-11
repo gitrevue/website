@@ -19,6 +19,9 @@ description: "The documentation site for GitRevue. Simplify your code reviews, a
             <li>
                 <a href="/docs/rules">Review Rules</a>
             </li>
+            <li>
+                <a href="/docs/artifact-monitoring">Artifact Monitoring</a>
+            </li>
         </ul>
     </div>
 </div>
