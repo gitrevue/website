@@ -18,7 +18,19 @@ Require assignee encourages authors to assign all relevant contributors to a pul
 
 | Key | Type | Description |
 |-----|------|-------------|
-| `require_assignee` | Boolean | Set to `true` to require an assignee on a pull request |
+| `require_assignee` | Boolean or Map | Set to `true` to require an assignee on a pull request. Set to a Map with `auto_assign_author: true`. |
+| `auto_assign_author` | Boolean | GitRevue will automatically assign the author to a pull request if there are no assignees |
+
+```yaml
+require_assignee: true
+```
+
+To automatically assign the author to the pull request you can set `auto_assign_author` to `true`. 
+
+```yaml
+require_assignee:
+    auto_assign_author: true
+```
 
 #### Require File Modified
 
@@ -26,7 +38,7 @@ Require file modified ensures specific files are kept up to date with every pull
 
 | Key | Type | Description |
 |-----|------|-------------|
-| `require_file_modified` | Array | An array of file paths or globs which must match a file modified in the pull request. *Note*: Paths are relative to your repository root |
+| `require_file_modified` | List | A list of file paths or globs which must match a file modified in the pull request. *Note*: Paths are relative to your repository root |
 
 ```yaml
 require_file_modified:
@@ -40,7 +52,7 @@ Require file not modified ensures specific files are not changed. This is good f
 
 | Key | Type | Description |
 |-----|------|-------------|
-| `require_file_not_modified` | Array | An array of file paths or globs which must not match a file modified in the pull request. *Note*: Paths are relative to your repository root |
+| `require_file_not_modified` | List | A list of file paths or globs which must not match a file modified in the pull request. *Note*: Paths are relative to your repository root |
 
 ```yaml
 require_file_not_modified:
