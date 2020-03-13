@@ -26,7 +26,7 @@ const Pricing = () => (
 
       <Plan
         className="ml-md-2 mt-4 mt-md-0"
-        name="Business"
+        name="Enterprise"
         price={100}
         action="Start Enterprise"
         link="https://app.gitrevue.io/sign-up"
