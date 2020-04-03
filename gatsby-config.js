@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `GitRevue | Simplify your code reviews`,
-    description: `Simplify your code reviews, automate common tasks and implement standard review flows throughout your team`,
+    title: `GitRevue | Monitor your artifacts | Simplify your code reviews`,
+    description: `Monitor your artifacts, simplify your code reviews, automate common tasks and implement standard review flows throughout your team`,
     author: `@gitrevue`,
     siteUrl: 'https://gitrevue.io',
   },

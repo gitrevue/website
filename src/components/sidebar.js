@@ -51,7 +51,7 @@ const Sidebar = () => (
       </li>
 
       <li>
-        <Link to="/docs/artifact-monitoring">CircleCI</Link>
+        <Link to="/docs/artifact-monitoring/setup-with-circleci">CircleCI</Link>
       </li>
     </ul>
   </aside>

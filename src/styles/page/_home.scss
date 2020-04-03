@@ -1,6 +1,10 @@
 .section {
   margin-top: 8rem;
 
+  &:not(.skewed) + &:not(.skewed) {
+    margin-top: 0;
+  }
+
   &:first-of-type {
     margin-top: 2rem;
 
