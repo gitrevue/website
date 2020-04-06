@@ -18,6 +18,12 @@ const IndexPage = () => (
       title="Home"
       description="Monitor your artifacts, simplify your code reviews, automate common tasks and implement standard review flows throughout your team"
       path="/"
+      meta={[
+        {
+          name: `keywords`,
+          content: `gitrevue, artifacts, review`,
+        },
+      ]}
       structuredData={{
         "@context": `https://schema.org`,
         "@type": `Organization`,
