@@ -97,5 +97,13 @@ module.exports = {
         stripQueryString: true,
       },
     },
+    {
+      resolve: `gatsby-plugin-crisp-chat`,
+      options: {
+        websiteId: '91d2ffee-5462-4031-965a-deb9e137bce7',
+        enableDuringDevelop: true,
+        defer: true,
+      },
+    },
   ],
 }
