@@ -3,11 +3,11 @@
 <url> <loc>https://gitrevue.io/privacy-policy</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gitrevue.io/terms-of-service</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gitrevue.io/data-processing-agreement</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gitrevue.io/docs/getting-started</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gitrevue.io/docs</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gitrevue.io/docs/rules</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gitrevue.io/docs/artifact-monitoring</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gitrevue.io/docs/artifact-monitoring/setup-with-circleci</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gitrevue.io/docs/getting-started</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gitrevue.io/docs/rules</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gitrevue.io/contact-us/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gitrevue.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gitrevue.io/pricing/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
