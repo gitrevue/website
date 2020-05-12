@@ -1,7 +1,7 @@
 ---
 path: "/docs/rules"
 title: "Review Rules"
-description: "Reference for the .gitrevue.yml configuration file"
+description: "Reference for the .gitrevue.yaml configuration file"
 ---
 
 #### Max Modifications

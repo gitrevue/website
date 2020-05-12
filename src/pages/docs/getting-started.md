@@ -18,13 +18,13 @@ Before getting started with GitRevue, make sure you have the following:
 1. Go to [https://github.com/apps/gitrevue](https://github.com/apps/gitrevue) and install the GitRevue App.
 2. Select the GitHub organisation and repositories you want to use with GitRevue.
 3. Click the green *Install* button
-4. Add a `.gitrevue.yml` file to your repository. The sample below tells GitRevue to fail the review if the PR exceeds 1,000 additions/deletions.
+4. Add a `.gitrevue.yaml` file to your repository. The sample below tells GitRevue to fail the review if the PR exceeds 1,000 additions/deletions.
 
 ```yaml
 maximum_modifications: 1000
 ```
 
-5. Commit the `.gitrevue.yml` configuration, push and open a pull request.
+5. Commit the `.gitrevue.yaml` configuration, push and open a pull request.
 6. View the Checks tab on your pull request to see if your review passed or failed.
 
 ### Further Reading
